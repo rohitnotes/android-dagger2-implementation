@@ -1,5 +1,5 @@
 android-dagger2-implentation
-================
+===========
 This repository shows you how to handle Dagger 2 using child fragments.
 
 **Step 1**
@@ -29,6 +29,20 @@ public class App extends Application{
 	}
 }
 ```
+
+**Step 3**
+In the "manifest.xml" file, add android:name=".App" attribute to Application element.
+
+``` xml
+<application
+	android:name=".App"
+	..................
+	..................>
+	
+	<activity android:name=".ui.MainActivity" />
+</application>
+```
+
 License
 ================
 	Copyright 2018 Sami Deliceli.
